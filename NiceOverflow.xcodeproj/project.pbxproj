@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27E13FE21864927900B25EC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E13FE11864927900B25EC1 /* Foundation.framework */; };
+		27E13FE41864927900B25EC1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E13FE31864927900B25EC1 /* CoreGraphics.framework */; };
+		27E13FE61864927900B25EC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E13FE51864927900B25EC1 /* UIKit.framework */; };
+		27E13FEC1864927900B25EC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27E13FEA1864927900B25EC1 /* InfoPlist.strings */; };
+		27E13FEE1864927900B25EC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E13FED1864927900B25EC1 /* main.m */; };
+		27E13FF21864927900B25EC1 /* JRTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E13FF11864927900B25EC1 /* JRTAppDelegate.m */; };
+		27E13FF41864927900B25EC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E13FF31864927900B25EC1 /* Images.xcassets */; };
+		27E13FFB1864927900B25EC1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E13FFA1864927900B25EC1 /* XCTest.framework */; };
+		27E13FFC1864927900B25EC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E13FE11864927900B25EC1 /* Foundation.framework */; };
+		27E13FFD1864927900B25EC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E13FE51864927900B25EC1 /* UIKit.framework */; };
+		27E140051864927900B25EC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27E140031864927900B25EC1 /* InfoPlist.strings */; };
+		27E14FB71868393A00522183 /* JRTTopUsersTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E14FB61868393A00522183 /* JRTTopUsersTest.m */; };
+		27E14FB918683E7600522183 /* JRTAsyncTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E14FB818683E7600522183 /* JRTAsyncTest.m */; };
+		27E14FBC18683F7800522183 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E14FBB18683F7800522183 /* Storyboard.storyboard */; };
+		27E14FC81868571100522183 /* JRTReputationChangesTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E14FC71868571100522183 /* JRTReputationChangesTest.m */; };
+		27E14FD318688B1D00522183 /* JRTTagsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E14FD218688B1D00522183 /* JRTTagsTest.m */; };
+		27E14FD91868922C00522183 /* JRTNullStrippingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E14FD81868922C00522183 /* JRTNullStrippingTest.m */; };
+		5756F1DFCBDC45B6516654E5 /* JRTPostDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5756FC6132EA17A756DCD5D9 /* JRTPostDisplayViewController.m */; };
+		5756F1F273D958FF7AC4C873 /* JRTTagsService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5756F19FE87F3FA64B6B2D79 /* JRTTagsService.m */; };
+		5756F256AECE09A1E46783DE /* JRTReputationChangesService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5756F8CEC1C5FCEEFA8B16FC /* JRTReputationChangesService.m */; };
+		5756F2BF04C807B763F0B7B5 /* NSJSONSerialization+RemovingNulls.m in Sources */ = {isa = PBXBuildFile; fileRef = 5756F366D73F522BD5FFA5F8 /* NSJSONSerialization+RemovingNulls.m */; };
+		5756F5E1AEFE0EA742DB2587 /* JRTUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5756F3C0905BB36BCA1B515A /* JRTUserViewController.m */; };
+		5756FA61DEE4724C76DC33D5 /* JRTWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5756F01F95069736D3C82B33 /* JRTWebService.m */; };
+		5756FA84C9419380395150D3 /* JRTTopUsersService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5756F8B9CA4FEA89426519A1 /* JRTTopUsersService.m */; };
+		5756FD53E94A79F2F70F67EE /* JRTTopUsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5756F6727426222B0A7CBD07 /* JRTTopUsersViewController.m */; };
+		5756FDE4DC8133FB50E219D7 /* JRTTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5756F2C4FE7EDB1405ED47C5 /* JRTTagsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27E13FFE1864927900B25EC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27E13FD61864927900B25EC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27E13FDD1864927900B25EC1;
+			remoteInfo = NiceOverflow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27E13FDE1864927900B25EC1 /* NiceOverflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiceOverflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E13FE11864927900B25EC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		27E13FE31864927900B25EC1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		27E13FE51864927900B25EC1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		27E13FE91864927900B25EC1 /* NiceOverflow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NiceOverflow-Info.plist"; sourceTree = "<group>"; };
+		27E13FEB1864927900B25EC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27E13FED1864927900B25EC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27E13FEF1864927900B25EC1 /* NiceOverflow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NiceOverflow-Prefix.pch"; sourceTree = "<group>"; };
+		27E13FF01864927900B25EC1 /* JRTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRTAppDelegate.h; sourceTree = "<group>"; };
+		27E13FF11864927900B25EC1 /* JRTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRTAppDelegate.m; sourceTree = "<group>"; };
+		27E13FF31864927900B25EC1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		27E13FF91864927900B25EC1 /* NiceOverflowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NiceOverflowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E13FFA1864927900B25EC1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		27E140021864927900B25EC1 /* NiceOverflowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NiceOverflowTests-Info.plist"; sourceTree = "<group>"; };
+		27E140041864927900B25EC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27E14FB61868393A00522183 /* JRTTopUsersTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRTTopUsersTest.m; sourceTree = "<group>"; };
+		27E14FB818683E7600522183 /* JRTAsyncTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRTAsyncTest.m; sourceTree = "<group>"; };
+		27E14FBA18683EA400522183 /* JRTAsyncTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRTAsyncTest.h; sourceTree = "<group>"; };
+		27E14FBB18683F7800522183 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		27E14FC71868571100522183 /* JRTReputationChangesTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRTReputationChangesTest.m; sourceTree = "<group>"; };
+		27E14FD218688B1D00522183 /* JRTTagsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRTTagsTest.m; sourceTree = "<group>"; };
+		27E14FD81868922C00522183 /* JRTNullStrippingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRTNullStrippingTest.m; sourceTree = "<group>"; };
+		5756F01F95069736D3C82B33 /* JRTWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRTWebService.m; sourceTree = "<group>"; };
+		5756F19FE87F3FA64B6B2D79 /* JRTTagsService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRTTagsService.m; sourceTree = "<group>"; };
+		5756F2C4FE7EDB1405ED47C5 /* JRTTagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRTTagsViewController.m; sourceTree = "<group>"; };
+		5756F32F7C0BCDC1F64D2985 /* JRTPostDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRTPostDisplayViewController.h; sourceTree = "<group>"; };
+		5756F366D73F522BD5FFA5F8 /* NSJSONSerialization+RemovingNulls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSJSONSerialization+RemovingNulls.m"; sourceTree = "<group>"; };
+		5756F3C0905BB36BCA1B515A /* JRTUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRTUserViewController.m; sourceTree = "<group>"; };
+		5756F5C6C0CBF57DF5E3D7D9 /* JRTWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRTWebService.h; sourceTree = "<group>"; };
+		5756F6727426222B0A7CBD07 /* JRTTopUsersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRTTopUsersViewController.m; sourceTree = "<group>"; };
+		5756F77A0A630798ACFC7A94 /* JRTTopUsersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRTTopUsersViewController.h; sourceTree = "<group>"; };
+		5756F7AE462CF3F14D5D743C /* JRTTagsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRTTagsService.h; sourceTree = "<group>"; };
+		5756F82833C5E68A736F2107 /* NSJSONSerialization+RemovingNulls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSJSONSerialization+RemovingNulls.h"; sourceTree = "<group>"; };
+		5756F8B9CA4FEA89426519A1 /* JRTTopUsersService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRTTopUsersService.m; sourceTree = "<group>"; };
+		5756F8CEC1C5FCEEFA8B16FC /* JRTReputationChangesService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRTReputationChangesService.m; sourceTree = "<group>"; };
+		5756F96EE9955D61FBF885B6 /* JRTTagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRTTagsViewController.h; sourceTree = "<group>"; };
+		5756F9EA1094F3C26F17071C /* JRTReputationChangesService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRTReputationChangesService.h; sourceTree = "<group>"; };
+		5756FA85BD4617435AC70D64 /* JRTUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRTUserViewController.h; sourceTree = "<group>"; };
+		5756FC6132EA17A756DCD5D9 /* JRTPostDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRTPostDisplayViewController.m; sourceTree = "<group>"; };
+		5756FD64AE812C0B131AB539 /* JRTTopUsersService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRTTopUsersService.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27E13FDB1864927900B25EC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E13FE41864927900B25EC1 /* CoreGraphics.framework in Frameworks */,
+				27E13FE61864927900B25EC1 /* UIKit.framework in Frameworks */,
+				27E13FE21864927900B25EC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E13FF61864927900B25EC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E13FFB1864927900B25EC1 /* XCTest.framework in Frameworks */,
+				27E13FFD1864927900B25EC1 /* UIKit.framework in Frameworks */,
+				27E13FFC1864927900B25EC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27E13FD51864927900B25EC1 = {
+			isa = PBXGroup;
+			children = (
+				27E13FE71864927900B25EC1 /* NiceOverflow */,
+				27E140001864927900B25EC1 /* NiceOverflowTests */,
+				27E13FE01864927900B25EC1 /* Frameworks */,
+				27E13FDF1864927900B25EC1 /* Products */,
+				5756F2CEA0BD623CED38ED9E /* View Controllers */,
+				5756F66F7B417F39A5D12241 /* Web Services */,
+			);
+			sourceTree = "<group>";
+		};
+		27E13FDF1864927900B25EC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27E13FDE1864927900B25EC1 /* NiceOverflow.app */,
+				27E13FF91864927900B25EC1 /* NiceOverflowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27E13FE01864927900B25EC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27E13FE11864927900B25EC1 /* Foundation.framework */,
+				27E13FE31864927900B25EC1 /* CoreGraphics.framework */,
+				27E13FE51864927900B25EC1 /* UIKit.framework */,
+				27E13FFA1864927900B25EC1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27E13FE71864927900B25EC1 /* NiceOverflow */ = {
+			isa = PBXGroup;
+			children = (
+				27E13FF01864927900B25EC1 /* JRTAppDelegate.h */,
+				27E13FF11864927900B25EC1 /* JRTAppDelegate.m */,
+				27E13FF31864927900B25EC1 /* Images.xcassets */,
+				27E13FE81864927900B25EC1 /* Supporting Files */,
+				27E14FBB18683F7800522183 /* Storyboard.storyboard */,
+			);
+			path = NiceOverflow;
+			sourceTree = "<group>";
+		};
+		27E13FE81864927900B25EC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27E13FE91864927900B25EC1 /* NiceOverflow-Info.plist */,
+				27E13FEA1864927900B25EC1 /* InfoPlist.strings */,
+				27E13FED1864927900B25EC1 /* main.m */,
+				27E13FEF1864927900B25EC1 /* NiceOverflow-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27E140001864927900B25EC1 /* NiceOverflowTests */ = {
+			isa = PBXGroup;
+			children = (
+				27E14FC71868571100522183 /* JRTReputationChangesTest.m */,
+				27E14FB61868393A00522183 /* JRTTopUsersTest.m */,
+				27E140011864927900B25EC1 /* Supporting Files */,
+				27E14FBA18683EA400522183 /* JRTAsyncTest.h */,
+				27E14FB818683E7600522183 /* JRTAsyncTest.m */,
+				27E14FD218688B1D00522183 /* JRTTagsTest.m */,
+				27E14FD81868922C00522183 /* JRTNullStrippingTest.m */,
+			);
+			path = NiceOverflowTests;
+			sourceTree = "<group>";
+		};
+		27E140011864927900B25EC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27E140021864927900B25EC1 /* NiceOverflowTests-Info.plist */,
+				27E140031864927900B25EC1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5756F2CEA0BD623CED38ED9E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5756F77A0A630798ACFC7A94 /* JRTTopUsersViewController.h */,
+				5756FC6132EA17A756DCD5D9 /* JRTPostDisplayViewController.m */,
+				5756F3C0905BB36BCA1B515A /* JRTUserViewController.m */,
+				5756F96EE9955D61FBF885B6 /* JRTTagsViewController.h */,
+				5756F32F7C0BCDC1F64D2985 /* JRTPostDisplayViewController.h */,
+				5756F2C4FE7EDB1405ED47C5 /* JRTTagsViewController.m */,
+				5756F6727426222B0A7CBD07 /* JRTTopUsersViewController.m */,
+				5756FA85BD4617435AC70D64 /* JRTUserViewController.h */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		5756F3FCDAA9958AEE5D34CF /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				5756F366D73F522BD5FFA5F8 /* NSJSONSerialization+RemovingNulls.m */,
+				5756F82833C5E68A736F2107 /* NSJSONSerialization+RemovingNulls.h */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		5756F66F7B417F39A5D12241 /* Web Services */ = {
+			isa = PBXGroup;
+			children = (
+				5756FEE97675B901EF0542C9 /* Base Class */,
+				5756F3FCDAA9958AEE5D34CF /* Categories */,
+				5756F8B9CA4FEA89426519A1 /* JRTTopUsersService.m */,
+				5756F19FE87F3FA64B6B2D79 /* JRTTagsService.m */,
+				5756F7AE462CF3F14D5D743C /* JRTTagsService.h */,
+				5756FD64AE812C0B131AB539 /* JRTTopUsersService.h */,
+				5756F8CEC1C5FCEEFA8B16FC /* JRTReputationChangesService.m */,
+				5756F9EA1094F3C26F17071C /* JRTReputationChangesService.h */,
+			);
+			path = "Web Services";
+			sourceTree = "<group>";
+		};
+		5756FEE97675B901EF0542C9 /* Base Class */ = {
+			isa = PBXGroup;
+			children = (
+				5756F5C6C0CBF57DF5E3D7D9 /* JRTWebService.h */,
+				5756F01F95069736D3C82B33 /* JRTWebService.m */,
+			);
+			path = "Base Class";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27E13FDD1864927900B25EC1 /* NiceOverflow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27E1400A1864927900B25EC1 /* Build configuration list for PBXNativeTarget "NiceOverflow" */;
+			buildPhases = (
+				27E13FDA1864927900B25EC1 /* Sources */,
+				27E13FDB1864927900B25EC1 /* Frameworks */,
+				27E13FDC1864927900B25EC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NiceOverflow;
+			productName = NiceOverflow;
+			productReference = 27E13FDE1864927900B25EC1 /* NiceOverflow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27E13FF81864927900B25EC1 /* NiceOverflowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27E1400D1864927900B25EC1 /* Build configuration list for PBXNativeTarget "NiceOverflowTests" */;
+			buildPhases = (
+				27E13FF51864927900B25EC1 /* Sources */,
+				27E13FF61864927900B25EC1 /* Frameworks */,
+				27E13FF71864927900B25EC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27E13FFF1864927900B25EC1 /* PBXTargetDependency */,
+			);
+			name = NiceOverflowTests;
+			productName = NiceOverflowTests;
+			productReference = 27E13FF91864927900B25EC1 /* NiceOverflowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27E13FD61864927900B25EC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JRT;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = CommandShift;
+				TargetAttributes = {
+					27E13FF81864927900B25EC1 = {
+						TestTargetID = 27E13FDD1864927900B25EC1;
+					};
+				};
+			};
+			buildConfigurationList = 27E13FD91864927900B25EC1 /* Build configuration list for PBXProject "NiceOverflow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 27E13FD51864927900B25EC1;
+			productRefGroup = 27E13FDF1864927900B25EC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27E13FDD1864927900B25EC1 /* NiceOverflow */,
+				27E13FF81864927900B25EC1 /* NiceOverflowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27E13FDC1864927900B25EC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E13FEC1864927900B25EC1 /* InfoPlist.strings in Resources */,
+				27E13FF41864927900B25EC1 /* Images.xcassets in Resources */,
+				27E14FBC18683F7800522183 /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E13FF71864927900B25EC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E140051864927900B25EC1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27E13FDA1864927900B25EC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E13FEE1864927900B25EC1 /* main.m in Sources */,
+				27E13FF21864927900B25EC1 /* JRTAppDelegate.m in Sources */,
+				5756F1DFCBDC45B6516654E5 /* JRTPostDisplayViewController.m in Sources */,
+				5756F5E1AEFE0EA742DB2587 /* JRTUserViewController.m in Sources */,
+				5756FDE4DC8133FB50E219D7 /* JRTTagsViewController.m in Sources */,
+				5756FD53E94A79F2F70F67EE /* JRTTopUsersViewController.m in Sources */,
+				5756FA61DEE4724C76DC33D5 /* JRTWebService.m in Sources */,
+				5756F2BF04C807B763F0B7B5 /* NSJSONSerialization+RemovingNulls.m in Sources */,
+				5756FA84C9419380395150D3 /* JRTTopUsersService.m in Sources */,
+				5756F1F273D958FF7AC4C873 /* JRTTagsService.m in Sources */,
+				5756F256AECE09A1E46783DE /* JRTReputationChangesService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E13FF51864927900B25EC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E14FC81868571100522183 /* JRTReputationChangesTest.m in Sources */,
+				27E14FB71868393A00522183 /* JRTTopUsersTest.m in Sources */,
+				27E14FB918683E7600522183 /* JRTAsyncTest.m in Sources */,
+				27E14FD91868922C00522183 /* JRTNullStrippingTest.m in Sources */,
+				27E14FD318688B1D00522183 /* JRTTagsTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27E13FFF1864927900B25EC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27E13FDD1864927900B25EC1 /* NiceOverflow */;
+			targetProxy = 27E13FFE1864927900B25EC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27E13FEA1864927900B25EC1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27E13FEB1864927900B25EC1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		27E140031864927900B25EC1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27E140041864927900B25EC1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27E140081864927900B25EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		27E140091864927900B25EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27E1400B1864927900B25EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NiceOverflow/NiceOverflow-Prefix.pch";
+				INFOPLIST_FILE = "NiceOverflow/NiceOverflow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		27E1400C1864927900B25EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NiceOverflow/NiceOverflow-Prefix.pch";
+				INFOPLIST_FILE = "NiceOverflow/NiceOverflow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		27E1400E1864927900B25EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NiceOverflow.app/NiceOverflow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NiceOverflow/NiceOverflow-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NiceOverflowTests/NiceOverflowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		27E1400F1864927900B25EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NiceOverflow.app/NiceOverflow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NiceOverflow/NiceOverflow-Prefix.pch";
+				INFOPLIST_FILE = "NiceOverflowTests/NiceOverflowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27E13FD91864927900B25EC1 /* Build configuration list for PBXProject "NiceOverflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E140081864927900B25EC1 /* Debug */,
+				27E140091864927900B25EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27E1400A1864927900B25EC1 /* Build configuration list for PBXNativeTarget "NiceOverflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E1400B1864927900B25EC1 /* Debug */,
+				27E1400C1864927900B25EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27E1400D1864927900B25EC1 /* Build configuration list for PBXNativeTarget "NiceOverflowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E1400E1864927900B25EC1 /* Debug */,
+				27E1400F1864927900B25EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27E13FD61864927900B25EC1 /* Project object */;
+}
